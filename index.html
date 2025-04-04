@@ -433,6 +433,18 @@
 .project-item a:hover {
     text-decoration: underline;
 }
+
+ .bio-content {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        line-height: 1.8;
+    }
+    
+    .bio-content p {
+        margin-bottom: 15px;
+    }
     </style>
 </head>
 <body>
@@ -440,6 +452,7 @@
     <div class="banner">
         <div class="profile-container">
             <img src="data:image/jpeg;base64,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" 
+         
                 alt="Jake Skidmore">
             <div class="profile-info">
                 <h1>Jake Skidmore</h1>
@@ -454,20 +467,31 @@
 
     <section id="summary">
         <div class="container">
-            <h2>SUMMARY</h2>
+            <h2> Professional Summary</h2>
             <p>
-                Results-driven Engineering Manager with over 12 years of experience in electrical and electronic manufacturing. 
-                Expertise in strategic planning, process optimization, product lifecycle management, and cross-functional leadership. 
-                Adept at cost reduction, operational efficiency, and ensuring compliance with industry standards. 
-                Passionate about continuous improvement, automation, and fostering high-performance engineering teams. 
-                Holds a Master’s in Engineering Management from Drexel University.
+              Seasoned Manager with over 12 years in electronic manufacturing. Expert in strategic planning, sales, team leadership, cost reduction, and operational efficiency. Adept at project lifecycle management and passionate about continuous improvement. Holds a Master's degree in Engineering Management from Drexel University.
             </p>
             <div class="view-more">
                 <button onclick="showTabs()">View More</button>
             </div>
         </div>
     </section>
+<section id="bio">
+    <div class="container">
+        <h2>Professional Biography</h2>
+        <div class="bio-content">
+            <p>Jake Skidmore is a seasoned engineering and operations professional with a diverse background spanning technical, managerial, and customer service roles. His career began through a vocational work program during high school, where he demonstrated an early aptitude for technical problem-solving at STS Automotive Repair (2009-2013).</p>
 
+            <p>Driven by professional ambition, Jake pursued automotive engineering certifications and enrolled at Brookdale Community College, where he excelled academically, graduating at the top of his class. His pursuit of higher education continued at Thomas Edison State University, where he initially focused on Automotive Technology before transitioning to Technical Studies as his career interests evolved toward engineering.</p>
+
+            <p>At Colonial Airstream (2013-2017), Jake progressed from technician to Service Representative Manager, distinguishing himself through mechanical expertise, customer service excellence, and leadership abilities. During this period, he earned his Master's in Engineering Management from Drexel University, a pivotal achievement that led to his recruitment by Crestron Electronics.</p>
+
+            <p>At Crestron, Jake established himself as a subject matter expert across product lines and design engineering. His leadership transformed the Sales Support Service Department, where he elevated team performance, reduced lead times by 73% (from 15 to 4 days), and successfully rehabilitated a key global client relationship. His tenure has been marked by managing high-profile projects and consistently delivering operational improvements.</p>
+
+            <p>Currently seeking new opportunities, Jake brings 12+ years of experience in engineering management, process optimization, and team leadership. His career demonstrates a pattern of rapid skill acquisition, performance transformation, and the ability to drive measurable business results. He is particularly interested in roles that leverage his technical background, management expertise, and proven ability to enhance organizational efficiency.</p>
+        </div>
+    </div>
+</section>
     <section id="tabs-section" style="display: none;">
         <div class="container">
             <!-- Add a "Back to Summary" button -->
@@ -475,12 +499,9 @@
                 <button onclick="showSummary()">Back to Summary</button>
             </div>
             <div class="tabs">
-                <button class="tab-button active" data-tab="experience">Work Experience</button>
-                <button class="tab-button" data-tab="education">Education</button>
                 <button class="tab-button" data-tab="skills">Skills</button>
+                <button class="tab-button" data-tab="education">Education</button>
 				<button class="tab-button" data-tab="projects">Notable Projects</button> 
-            
-          
             </div>
 			
 			<div id="projects" class="tab-content">
@@ -511,59 +532,6 @@
     </div>
 </div>
 			
-            <div id="experience" class="tab-content active">
-                <h2>WORK EXPERIENCE</h2>
-                <div class="experience-item">
-                    <h3>Crestron Electronics – Rockleigh, NJ</h3>
-                    <p>Engineering Manager | July 2017 - Present</p>
-                    <ul>
-                        <li>Develop and execute departmental goals aligning with company objectives.</li>
-                        <li>Lead and mentor a team of 20+ engineers, overseeing recruitment, onboarding, training, and performance assessment.</li>
-                        <li>Optimize efficiency through resource allocation, process optimization, and leveling techniques.</li>
-                        <li>Implement standardized workflows to enhance consistency and adherence to industry best practices.</li>
-                        <li>Manage budgets to balance financial performance with operational needs, incorporating budget forecasting & cost control.</li>
-                        <li>Oversee planning, design, and execution of complex projects, ensuring timely and high-quality deliverables.</li>
-                        <li>Foster relationships with clients, partners, and stakeholders for long-term success through stakeholder management.</li>
-                        <li>Implement feedback mechanisms, risk assessment & mitigation, and post-project evaluations to drive efficiency and reduce errors.</li>
-                        <li>Facilitate open communication, cross-functional team collaboration, and data-driven decisions for strategic improvements.</li>
-                        <li>Partner with executives and cross-functional teams to enhance service delivery and develop innovative solutions.</li>
-                        <li>Ensure compliance with NEC, IECC, ASHRAE, and Title 24.</li>
-                        <li>Foster a culture of learning and professional growth within the team through workforce development & mentorship.</li>
-                        <li>Spearhead software development for Build-to-Order panel generation, streamlining product customization.</li>
-                        <li>Utilize Agile Methodology (Scrum, Kanban) and Waterfall Methodology for project management.</li>
-                        <li>Drive continuous improvement initiatives to optimize performance and reduce inefficiencies.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Ocean County College – Toms River, NJ</h3>
-                    <p>Adjunct Professor of Engineering | June 2023 - Present</p>
-                    <ul>
-                        <li>Instruct evening engineering courses, fostering critical thinking and hands-on problem-solving skills.</li>
-                        <li>Engage students through interactive discussions and real-world applications of engineering principles.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Colonial Airstream – Millstone, NJ</h3>
-                    <p>Manager, Service Representative | May 2013 - July 2017</p>
-                    <ul>
-                        <li>Negotiated with manufacturers, reducing repair turnaround time by 40%.</li>
-                        <li>Developed efficient communication channels, decreasing downtime for equipment repairs by 30%.</li>
-                        <li>Led training sessions, improving successful repair authorizations by 20%.</li>
-                        <li>Designed and managed clean energy installations, including PV solar and battery storage systems.</li>
-                        <li>Streamlined warranty claim processes using customer feedback, increasing satisfaction by 20%.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>STS – Jackson, NJ</h3>
-                    <p>Lead Technician | May 2009 - October 2012</p>
-                    <ul>
-                        <li>Executed timely repairs, achieving a 95% customer satisfaction rate and increasing repeat business by 20%.</li>
-                        <li>Reduced repair times by 30%, cutting operational costs by $10,000 per quarter.</li>
-                        <li>Negotiated vendor pricing, saving 15% on maintenance supplies.</li>
-                        <li>Streamlined repair processes, increasing efficiency by 40% and reducing downtime per repair by 2 hours.</li>
-                    </ul>
-                </div>
-            </div>
             <div id="education" class="tab-content">
                 <h2>EDUCATION</h2>
                 <div class="education-item">
@@ -698,18 +666,9 @@
                     <progress value="90" max="100"></progress>
                 </div>
             </div>
-           
     </section>
 
-    <section id="download-resume">
-        <div class="container">
-            <div class="download-resume">
-                <h2>DOWNLOAD RESUME</h2>
-                <button onclick="downloadResume()">Download Resume (PDF)</button>
-            </div>
-        </div>
-    </section>
-
+   
     <footer>
         <div class="container">
             <p>&copy; 2025 Jake Skidmore. All rights reserved.</p>
